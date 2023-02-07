@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.1b291ad7.css",
+    "main.js": "/portfolio-react/static/js/main.fbbddf2e.js",
+    "static/media/french.png": "/portfolio-react/static/media/french.1da5ea1883371492322f.png",
+    "static/media/apex.png": "/portfolio-react/static/media/apex.abe4cded38dd7b510440.png",
+    "static/media/pizza.png": "/portfolio-react/static/media/pizza.44a360fe9b491c2d94f4.png",
+    "static/media/classyads.png": "/portfolio-react/static/media/classyads.b4f90da2e201abb5403d.png",
+    "static/media/agency.png": "/portfolio-react/static/media/agency.84386c8eedad9cedc6ef.png",
+    "static/media/commerc.png": "/portfolio-react/static/media/commerc.ff13f545d1cf5bc05099.png",
+    "static/media/clock.png": "/portfolio-react/static/media/clock.37ed3eebdb9cdae04164.png",
+    "static/media/Photo.jpg": "/portfolio-react/static/media/Photo.66d0190d410368b63f79.jpg",
+    "static/media/calculator.png": "/portfolio-react/static/media/calculator.479818c53cea348268aa.png",
+    "static/media/software.png": "/portfolio-react/static/media/software.9311e9929e8c876fe09a.png",
+    "static/media/about.svg": "/portfolio-react/static/media/about.98ba986f4ddf563d267dc2e1c710e1e4.svg",
+    "static/media/curd.png": "/portfolio-react/static/media/curd.7ce210e3191390cdc484.png",
+    "static/media/experience.svg": "/portfolio-react/static/media/experience.8964429295be0f3cb61389260f914380.svg",
+    "static/media/audio.png": "/portfolio-react/static/media/audio.fdb915b0ddfd760bae18.png",
+    "static/media/quiz.png": "/portfolio-react/static/media/quiz.e56f4a3a6e8c5fef03cb.png",
+    "index.html": "/portfolio-react/index.html",
+    "main.1b291ad7.css.map": "/portfolio-react/static/css/main.1b291ad7.css.map",
+    "main.fbbddf2e.js.map": "/portfolio-react/static/js/main.fbbddf2e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b291ad7.css",
+    "static/js/main.fbbddf2e.js"
+  ]
+}
