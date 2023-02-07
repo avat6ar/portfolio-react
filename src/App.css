@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+html {
+  scroll-behavior: smooth;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: Kdam Thmor Pro,sans-serif;
+  background-image: repeating-linear-gradient(-45deg, rgba(255,255,255, 0.25), rgba(255,255,255, 0.25) 1px, transparent 1px, transparent 6px);
+  background-size: 35px 35px;
+  line-height: 1.5;
+  background-color: #F2E7F8;
+  color: #053F5C;
 }
+#root {
+  overflow: hidden;
+}
+.flash {
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+  animation-name: flash;
+}
+@keyframes flash {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 0, 100%)
+  }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  100% {
+    opacity: 1;
+    transform: none;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.fadeInLeft {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: fadeInLeft;
 }
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0)
+  }
 
-.App-link {
-  color: #61dafb;
+  100% {
+    opacity: 1;
+    transform: none;
+  }
 }
+.fadeInRight {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: fadeInRight;
+}
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0)
+  }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  100% {
+    opacity: 1;
+    transform: none;
   }
-  to {
-    transform: rotate(360deg);
+}
+.fadeInDown {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: fadeInDown;
+}
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0)
   }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+.fadeInUp {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: fadeInUp;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0)
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+.mood {
+  position: absolute;
+  top: 25px;
+  right: 30px;
+}
+.mood svg {
+  cursor: pointer;
 }
