@@ -11,7 +11,7 @@ const Header = () => {
         <Navbar.Collapse className="justify-content-center">
           <ul className="shadow navbar-nav">
             <li className="nav-item">
-              <NavLink to="portfolio-react/" className="nav-link" title="Home">
+              <NavLink to="/" className="nav-link" title="Home">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="18"
@@ -25,7 +25,7 @@ const Header = () => {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="portfolio-react/about" className="nav-link" title="About">
+              <NavLink to="/about" className="nav-link" title="About">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="22"
@@ -39,7 +39,7 @@ const Header = () => {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="portfolio-react/projects" className="nav-link" title="Projects">
+              <NavLink to="/projects" className="nav-link" title="Projects">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -53,7 +53,7 @@ const Header = () => {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="portfolio-react/contact" className="nav-link" title="Contact">
+              <NavLink to="/contact" className="nav-link" title="Contact">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="19"
