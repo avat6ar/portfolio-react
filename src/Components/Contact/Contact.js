@@ -35,7 +35,7 @@ const Contact = () => {
   return (
     <div className="contact">
       <div className="row align-items-center justify-content-between">
-        <div className="col-md-6 mb-sm-2">
+        <div className="col-md-6 mb-sm-2 fadeInDown">
         <h2 className="mb-3">Contact Me</h2>
           <form ref={form} onSubmit={sendEmail}>
             <input
@@ -79,7 +79,7 @@ const Contact = () => {
             )}
           </form>
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4 fadeInRight">
           <div className="contact_option">
             <MdOutlineMail className="contact_option_icon" />
             <h5 className="my-2">Email</h5>
