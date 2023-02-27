@@ -8,6 +8,8 @@
     border-radius: 18px;
     text-align: center;
     border: 1px solid transparent;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
     margin-bottom: 16px;
 }
@@ -30,8 +32,13 @@
 }
 
 .contact form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     gap: 1.2rem;
     position: relative;
 }
