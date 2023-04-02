@@ -1,24 +1,183 @@
 .about .row {
-    padding: 70px 0;
-    height: 100vh;
+  padding: 70px 0;
 }
 .about h2 {
-    color: #6842ef;
+  color: #6842ef;
 }
 .about .btn_contact {
-    background-color: #6842ef;
-    color: #fff;
+  background-color: #6842ef;
+  color: #fff;
 }
 .about .btn_contact svg {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 .abou_img {
-    -webkit-animation-delay: .5s;
-            animation-delay: .5s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+/* !----------------------! */
+.experience {
+  border-bottom: 3px dashed #053f5c;
+}
+.experience .row {
+  padding: 70px 0;
+}
+.progress {
+  height: 10px;
+  background-color: #8888;
+}
+.progress-1 .progress-bar {
+  background-color: #ff4c1e;
+}
+.progress-2 .progress-bar {
+  background-color: #264de4;
+}
+.progress-3 .progress-bar {
+  background-color: #ffc107;
+}
+.progress-4 .progress-bar {
+  background-color: #563d7c;
+}
+.progress-5 .progress-bar {
+  background-color: #7ce1fb;
+}
+.progress-6 .progress-bar {
+  background-color: #cf649a;
+}
+.progress-7 .progress-bar {
+  background-color: #01b7d6;
+}
+.progress-8 .progress-bar {
+  background-color: #017acb;
+}
+.experience .item:not(:first-child) {
+  margin-top: 15px;
 }
 @media screen and (max-width: 600px) {
-    .text-center-sm {
-        text-align: center;
-        margin-bottom: 25px;
-    }
+  .text-center-sm {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+}
+.about .row {
+  padding: 70px 0;
+}
+.about h2 {
+  color: #6842ef;
+}
+.about .btn_contact {
+  background-color: #6842ef;
+  color: #fff;
+}
+.about .btn_contact svg {
+  margin-left: 5px;
+}
+.abou_img {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+/* !----------------------! */
+.experience {
+  border-bottom: 3px dashed #053f5c;
+}
+.experience .row {
+  padding: 70px 0;
+}
+.progress {
+  height: 10px;
+  background-color: #8888;
+}
+.progress-1 .progress-bar {
+  background-color: #ff4c1e;
+}
+.progress-2 .progress-bar {
+  background-color: #264de4;
+}
+.progress-3 .progress-bar {
+  background-color: #ffc107;
+}
+.progress-4 .progress-bar {
+  background-color: #563d7c;
+}
+.progress-5 .progress-bar {
+  background-color: #7ce1fb;
+}
+.progress-6 .progress-bar {
+  background-color: #cf649a;
+}
+.progress-7 .progress-bar {
+  background-color: #01b7d6;
+}
+.progress-8 .progress-bar {
+  background-color: #017acb;
+}
+.experience .item:not(:first-child) {
+  margin-top: 15px;
+}
+@media screen and (max-width: 600px) {
+  .text-center-sm {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+}
+.about .row {
+  padding: 70px 0;
+}
+.about h2 {
+  color: #6842ef;
+}
+.about .btn_contact {
+  background-color: #6842ef;
+  color: #fff;
+}
+.about .btn_contact svg {
+  margin-left: 5px;
+}
+.abou_img {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+/* !----------------------! */
+.experience {
+  border-bottom: 3px dashed #053f5c;
+}
+.experience .row {
+  padding: 70px 0;
+}
+.progress {
+  height: 10px;
+  background-color: #8888;
+}
+.progress-1 .progress-bar {
+  background-color: #ff4c1e;
+}
+.progress-2 .progress-bar {
+  background-color: #264de4;
+}
+.progress-3 .progress-bar {
+  background-color: #ffc107;
+}
+.progress-4 .progress-bar {
+  background-color: #563d7c;
+}
+.progress-5 .progress-bar {
+  background-color: #7ce1fb;
+}
+.progress-6 .progress-bar {
+  background-color: #cf649a;
+}
+.progress-7 .progress-bar {
+  background-color: #01b7d6;
+}
+.progress-8 .progress-bar {
+  background-color: #017acb;
+}
+.experience .item:not(:first-child) {
+  margin-top: 15px;
+}
+@media screen and (max-width: 600px) {
+  .text-center-sm {
+    text-align: center;
+    margin-bottom: 25px;
+  }
 }
