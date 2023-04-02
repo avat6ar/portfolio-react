@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c27e62ad.css",
+    "main.js": "/static/js/main.0a25e5b1.js",
+    "static/media/french.png": "/static/media/french.1da5ea1883371492322f.png",
+    "static/media/apex.png": "/static/media/apex.abe4cded38dd7b510440.png",
+    "static/media/pizza.png": "/static/media/pizza.44a360fe9b491c2d94f4.png",
+    "static/media/restaurant.png": "/static/media/restaurant.65c18c5903b7ea5bc285.png",
+    "static/media/classyads.png": "/static/media/classyads.b4f90da2e201abb5403d.png",
+    "static/media/open-ai.png": "/static/media/open-ai.443a428a3d6212be1dce.png",
+    "static/media/agency.png": "/static/media/agency.84386c8eedad9cedc6ef.png",
+    "static/media/react-ecommerce.png": "/static/media/react-ecommerce.04bb017214749e7fb3c3.png",
+    "static/media/commerc.png": "/static/media/commerc.ff13f545d1cf5bc05099.png",
+    "static/media/unk.png": "/static/media/unk.ed059ea446e4127eb85b.png",
+    "static/media/clock.png": "/static/media/clock.37ed3eebdb9cdae04164.png",
+    "static/media/Photo.jpg": "/static/media/Photo.66d0190d410368b63f79.jpg",
+    "static/media/calculator.png": "/static/media/calculator.479818c53cea348268aa.png",
+    "static/media/software.png": "/static/media/software.9311e9929e8c876fe09a.png",
+    "static/media/todo-list.png": "/static/media/todo-list.dbcc9da3f1c968c3407f.png",
+    "static/media/about.svg": "/static/media/about.98ba986f4ddf563d267dc2e1c710e1e4.svg",
+    "static/media/curd.png": "/static/media/curd.7ce210e3191390cdc484.png",
+    "static/media/experience.svg": "/static/media/experience.8964429295be0f3cb61389260f914380.svg",
+    "static/media/audio.png": "/static/media/audio.fdb915b0ddfd760bae18.png",
+    "static/media/quiz.png": "/static/media/quiz.e56f4a3a6e8c5fef03cb.png",
+    "index.html": "/index.html",
+    "main.c27e62ad.css.map": "/static/css/main.c27e62ad.css.map",
+    "main.0a25e5b1.js.map": "/static/js/main.0a25e5b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c27e62ad.css",
+    "static/js/main.0a25e5b1.js"
+  ]
+}
