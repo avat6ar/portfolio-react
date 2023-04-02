@@ -1,0 +1,73 @@
+.experience {
+  border-bottom: 3px dashed #053f5c;
+}
+.experience .row {
+  padding: 50px 0;
+}
+.progress {
+  height: 10px;
+  background-color: #8888;
+}
+.progress-1 .progress-bar {
+  background-color: #ff4c1e;
+}
+.progress-2 .progress-bar {
+  background-color: #264de4;
+}
+.progress-3 .progress-bar {
+  background-color: #ffc107;
+}
+.progress-4 .progress-bar {
+  background-color: #563d7c;
+}
+.progress-5 .progress-bar {
+  background-color: #7ce1fb;
+}
+.progress-6 .progress-bar {
+  background-color: #cf649a;
+}
+.progress-7 .progress-bar {
+  background-color: #01b7d6;
+}
+.progress-8 .progress-bar {
+  background-color: #017acb;
+}
+.experience .item:not(:first-child) {
+  margin-top: 15px;
+}
+.projects .row {
+  padding: 50px 0 70px;
+}
+.projects .proj_card:hover {
+  -webkit-transform: scale(1.07);
+  -ms-transform: scale(1.07);
+  transform: scale(1.07);
+}
+.projects .card {
+  background-color: transparent;
+  border-radius: 25px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.projects .card .card-img-top {
+  border-radius: 10px;
+}
+.projects .card .lang_images img {
+  width: 35px;
+}
+.projects .demo {
+  background-color: #6842ef;
+  color: #fff;
+}
+.projects .code {
+  border: 2px solid #6842ef;
+  color: #053f5c;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.projects .code:hover {
+  background-color: #6842ef;
+  color: #fff;
+}

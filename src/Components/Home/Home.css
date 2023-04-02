@@ -1,0 +1,145 @@
+.home .row {
+  padding: 50px 0 70px;
+  height: 100vh;
+}
+
+.home .links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.home .links .link {
+  padding: 5px 0;
+}
+
+.home .links .link a {
+  color: #053f5c;
+}
+
+.home .links .link a svg {
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.home .links .link a:hover svg {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.home_social .line {
+  width: 3px;
+  height: 90px;
+  background-color: #6842ef;
+  margin: 15px 0 30px;
+  margin-left: 10px;
+}
+
+.home .download_cv {
+  background-color: #6842ef;
+  color: #fff;
+}
+
+.home .download_cv svg {
+  margin-left: 10px;
+  margin-top: -4px;
+}
+
+.home .read_more {
+  border: 2px solid #6842ef;
+  color: #053f5c;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.home .read_more svg {
+  margin-left: 10px;
+}
+
+.home .read_more:hover {
+  background-color: #6842ef;
+  color: #fff;
+}
+
+.home .job {
+  color: #6842ef;
+}
+
+.home_img {
+  background-image: url(./Photo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-box-shadow: inset 0 0 0 7px rgb(5 63 92 / 50%);
+  box-shadow: inset 0 0 0 7px rgb(5 63 92 / 50%);
+  width: 280px;
+  height: 260px;
+  margin: 0 auto;
+  -webkit-animation: profile 7s ease-in-out infinite;
+  animation: profile 7s ease-in-out infinite;
+}
+
+@-webkit-keyframes profile {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+
+@keyframes profile {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+
+.home_social-sm {
+  display: none;
+}
+
+.home .rotate {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.home .rotate .line {
+  width: 66px;
+  height: 3px;
+  background-color: #6842ef;
+}
+
+.home .end-0 {
+  right: -65px;
+}
+
+@media screen and (max-width: 600px) {
+  .home .col-md-3 {
+    display: none;
+  }
+
+  .home_social-sm {
+    display: block;
+  }
+
+  .home_social-sm .links .link {
+    display: inline-block;
+    padding: 0 15px;
+  }
+}

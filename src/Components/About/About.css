@@ -1,0 +1,24 @@
+.about .row {
+    padding: 70px 0;
+    height: 100vh;
+}
+.about h2 {
+    color: #6842ef;
+}
+.about .btn_contact {
+    background-color: #6842ef;
+    color: #fff;
+}
+.about .btn_contact svg {
+    margin-left: 5px;
+}
+.abou_img {
+    -webkit-animation-delay: .5s;
+            animation-delay: .5s;
+}
+@media screen and (max-width: 600px) {
+    .text-center-sm {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+}

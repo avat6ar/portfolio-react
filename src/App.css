@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Kdam Thmor Pro,sans-serif;
+  background-image: -o-repeating-linear-gradient(135deg, rgba(255,255,255, 0.25), rgba(255,255,255, 0.25) 1px, transparent 1px, transparent 6px);
+  background-image: repeating-linear-gradient(-45deg, rgba(255,255,255, 0.25), rgba(255,255,255, 0.25) 1px, transparent 1px, transparent 6px);
+  background-size: 35px 35px;
+  line-height: 1.5;
+  background-color: #F2E7F8;
+  color: #053F5C;
+}
+#root {
+  overflow: hidden;
+}
