@@ -11,7 +11,7 @@ const Project = () => {
   return (
     <Fragment>
       <div className="projects">
-        <div className="row">
+        <div className="row row-cols-lg-3 row-cols-md-2">
           <div className="col-12">
             <div className="text-center">
               <h2 className="my-3 fs-1 h3">Projects</h2>
@@ -23,7 +23,7 @@ const Project = () => {
           </div>
           {arrProjects.map((project) => (
             <div
-              className="col-md-4"
+              className="col"
               key={project.id}
               data-aos="fade-up"
               data-aos-duration="1000"
