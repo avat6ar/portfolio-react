@@ -11,16 +11,14 @@ const Project = () => {
   return (
     <Fragment>
       <div className="projects">
+        <div className="text-center">
+          <h2 className="my-3 fs-1 h3">Projects</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            tempore officiis suscipit saepe at vero odio minus
+          </p>
+        </div>
         <div className="row row-cols-lg-3 row-cols-md-2">
-          <div className="col-12">
-            <div className="text-center">
-              <h2 className="my-3 fs-1 h3">Projects</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-                tempore officiis suscipit saepe at vero odio minus
-              </p>
-            </div>
-          </div>
           {arrProjects.map((project) => (
             <div
               className="col"
