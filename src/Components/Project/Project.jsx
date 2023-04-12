@@ -60,6 +60,9 @@ const Project = () => {
             </div>
           ))}
         </div>
+         <div class="text-center">
+           <a herf="https://github.com/avat6ar?tab=repositories" target="_blank">More</a>
+          </div>
       </div>
     </Fragment>
   );
